@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@source "../app/**/*.{ts,tsx}";
+@source "../components/**/*.{ts,tsx}";
+
+:root { color-scheme: dark; }
+html, body {
+  background: #0f1115;
+  color: #fff;
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
